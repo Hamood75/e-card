@@ -109,11 +109,19 @@
         Mtumba Government City, Ujenzi Street<br>
         P.O. BOX 677, Dodoma, Tanzania
       </p>
+      <button id="download" class="cta">Download Back</button>
     </div>
   </main>
 
   <footer>
     &copy; 2024 Ministry of Communication and Information Technology, Tanzania
   </footer>
+
+  <script>
+    document.getElementById('download').addEventListener('click', () => {
+      // Redirect to the new page that displays the back of the card
+      window.location.href = 'back-card.html';
+    });
+  </script>
 </body>
 </html>
